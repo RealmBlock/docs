@@ -1,51 +1,61 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Venus Starter Kit",
+  "theme": "venus",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0b5394",
-    "light": "#3d85c6",
-    "dark": "#0b5394",
-    "anchors": {
-      "from": "#0d4c93",
-      "to": "#6fa8dc"
-    }
+    "primary": "#0D9373",
+    "light": "#07C983",
+    "dark": "#0D9373"
   },
   "topbarLinks": [
     {
-      "name": "Support",
+      "name": "Login",
       "url": "mailto:hi@mintlify.com"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
+    "name": "Get API Keys",
     "url": "https://dashboard.mintlify.com"
   },
   "tabs": [
     {
       "name": "API Reference",
       "url": "api-reference"
+    },
+    {
+      "name": "Libraries",
+      "url": "libraries"
     }
   ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "name": "Playground",
+      "icon": "play",
+      "url": "https://mintlify.com",
+      "iconType": "regular"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "name": "Account",
+      "icon": "user",
+      "url": "https://mintlify.com",
+      "iconType": "regular"
     },
     {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "name": "Changelog",
+      "icon": "list-timeline",
+      "url": "https://mintlify.com",
+      "iconType": "regular"
+    },
+    {
+      "name": "Support",
+      "icon": "question",
+      "url": "https://mintlify.com",
+      "iconType": "regular"
     }
   ],
   "navigation": [
@@ -81,10 +91,16 @@
         "api-reference/endpoint/create",
         "api-reference/endpoint/delete"
       ]
+    },
+    {
+      "group": "Libraries",
+      "pages": [
+        "libraries/nodejs"
+      ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
+    "twitter": "https://twitter.com/mintlify",
     "github": "https://github.com/mintlify",
     "linkedin": "https://www.linkedin.com/company/mintsearch"
   }
