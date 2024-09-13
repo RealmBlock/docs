@@ -1,66 +1,30 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Venus Starter Kit",
-  "theme": "venus",
+  "name": "Prism Starter Kit",
+  "theme": "prism",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373"
+    "primary": "#5D4CFE",
+    "light": "#8477FF",
+    "dark": "#5D4CFE"
   },
   "topbarLinks": [
     {
-      "name": "Login",
-      "url": "mailto:hi@mintlify.com"
+      "name": "Feedback",
+      "url": "mailto:support@mintlify.com"
     }
   ],
   "topbarCtaButton": {
-    "name": "Get API Keys",
+    "name": "Get Started",
     "url": "https://dashboard.mintlify.com"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    },
-    {
-      "name": "Libraries",
-      "url": "libraries"
-    }
-  ],
-  "anchors": [
-    {
-      "name": "Playground",
-      "icon": "play",
-      "url": "https://mintlify.com",
-      "iconType": "regular"
-    },
-    {
-      "name": "Account",
-      "icon": "user",
-      "url": "https://mintlify.com",
-      "iconType": "regular"
-    },
-    {
-      "name": "Changelog",
-      "icon": "list-timeline",
-      "url": "https://mintlify.com",
-      "iconType": "regular"
-    },
-    {
-      "name": "Support",
-      "icon": "question",
-      "url": "https://mintlify.com",
-      "iconType": "regular"
-    }
-  ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "",
       "pages": [
         "introduction",
         "quickstart",
@@ -91,16 +55,10 @@
         "api-reference/endpoint/create",
         "api-reference/endpoint/delete"
       ]
-    },
-    {
-      "group": "Libraries",
-      "pages": [
-        "libraries/nodejs"
-      ]
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
+    "x": "https://x.com/mintlify",
     "github": "https://github.com/mintlify",
     "linkedin": "https://www.linkedin.com/company/mintsearch"
   }
